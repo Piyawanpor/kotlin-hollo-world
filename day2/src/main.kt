@@ -1,5 +1,6 @@
 fun main(){
-
+ var hip = Hippo()
+    hip.eat() 
 }
 
 open class Animal{
@@ -20,5 +21,7 @@ open class Animal{
     open fun  sleep(){
         println("The Animel is sleep")
     }
-
+}
+class Hippo : Animal(){
+    //สร้างคลาส Hippo แต่ยังไม่ได้ทำอะไร
 }
